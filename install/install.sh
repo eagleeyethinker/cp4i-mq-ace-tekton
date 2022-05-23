@@ -1,19 +1,19 @@
 #! /bin/bash
 
-PIPELINE_NS=mq00-pipeline
-PIPELINE_SA=mq00pipeline
+PIPELINE_NS=mq06-pipeline
+PIPELINE_SA=mq06pipeline
 
 MQ_NS=cp4i-mq
 PN_NS=cp4i
-QMpre=mq00
+QMpre=mq06
 
 GIT_SECRET_NAME=user-at-github
 
 # Insert your Git Access Token below
-GIT_TOKEN=<paste git token here and remove brackets>
+GIT_TOKEN=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
 
 # Insert your Git UserName here
-GIT_USERNAME=<paste github username here and remove brackets>
+GIT_USERNAME=eagleeyethinker
 
 # Create the pipeline namespace
 kubectl create ns $PIPELINE_NS
